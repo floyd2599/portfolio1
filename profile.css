@@ -1,7 +1,7 @@
 /* roll no 2224 */
 .box{
     width: 80%;
-    height: 650px;
+    height: 630px;
     display: inline-block;
     margin: 70px  10% ;
     box-shadow: 0 77px 87px rgba(0,0,0,0.37);
@@ -9,10 +9,34 @@
     overflow: hidden;
     background-color: #fff;
 }
+.box2
+{
+    width: 80%;
+    height: 600px;
+    display: inline-block;
+    margin: 70px  10% ;
+    box-shadow: 0 77px 87px rgba(0,0,0,0.37);
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+.box3{
+    width: 80%;
+    height: 300px;
+    display: inline-block;
+    margin: 70px  10% ;
+    box-shadow: 0 77px 87px rgba(0,0,0,0.37);
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #fff;
+
+}
 .Boximg
 {
     float: left;
-    width: 45%;
+    width: 35%;
+    /* border: dotted  #031547; */
 }
 .Boxtxt
 {
@@ -20,17 +44,57 @@
     float: left;
     padding: 70px 70px 70px 35px; 
 }
+.Boxtxt2
+{
+    width: 90%;
+    padding: 70px 70px 70px 35px; 
+}
+.Boxtxt2 h1
+{
+    font-size: 40px;
+    margin-top: 7px;
+    margin-left: 13.5em;
+    margin-bottom: 1em;
+    color: #031547;
+}
 .Boxtxt h1
 {
-    margin-top: 7%;
+    margin-top: 5em;
+    margin-left: 2em;
+}
+.Boxtxt h2
+{
+    margin-top: 1%;
+    margin-left: 2em;
     font-size: 48px;
     font-weight: bold;
     color:#031547;
 
 }
-.Boxtxt .socials{
+.Boxtxt2 .socials{
     margin-top: 10%;
     
+}
+.Boxtxt3
+{
+    width: 55%;
+    float: left;
+    padding: 70px 70px 70px 35px; 
+
+}
+.Boxtxt3 h1
+{
+    font-size: 40px;
+    margin-top: 7px;
+    margin-left: 12.5em;
+    margin-bottom: 2em;
+    color: #031547;
+
+}
+.socials
+{
+    width: 100%;
+    margin-left: 23.5em;
 }
 .socials a
 {
@@ -43,7 +107,7 @@
     font-size: 28px;
     text-align: center;
     line-height: 50px;
-    margin: 0 15px 0 0;
+    margin: 0 50px 0 0;
     transition: all ease 0.2s;
 
 }
@@ -55,6 +119,50 @@
 }
 .skills 
 {
-    margin-top: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    margin-top: 80px;
+    font-family: Narrator;
+    font-size: 24px;
+    margin-left: 13em;
+}
+
+header{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 20vh;
+    /* background-color: yellow; */
+}
+
+header nav{
+/* border: 1px solid red; */
+width: 30%;
+min-width: 400px;
+margin: 0 auto;
+
+}
+
+header ul{
+display: flex;
+gap: 1.5em;
+width: 100%;
+flex-grow: 1;
+padding: 0.5em 1em;
+background-color: #031547;
+min-width: 400px;
+border-radius: 25px;
+
+}
+
+header li{
+    list-style-type: none;
+    width: 25%;
+    width: max-content;
+ 
+}
+
+header a{
+text-decoration: none;
+text-align: center;
+padding: 0 0.5em;
+color: aqua;
+width: 100%s;
 }
